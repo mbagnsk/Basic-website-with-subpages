@@ -27,6 +27,7 @@ header .header-text {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: justify;
+    z-index: 1;
 }
 
 header .header-text h1 {
@@ -59,11 +60,11 @@ nav li {
 nav li a {
     padding: 0 75px;
     transition: color 0.3s;
-    letter-spacing: 2px;
-    color: #fff;
-    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 nav li a:hover {
@@ -109,35 +110,28 @@ main section {
     margin-bottom: 20px;
 }
 
-main .about-us-first-section {
+main .img-settings{
     position: relative;
     height: 600px;
-    background-image: url(../img/desktop2.jfif);
-    background-position: center 40%;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: 1150px;
+}
+
+main .about-us-first-section {
+    background-image: url(../img/desktop2.jfif);
+    background-position: center 40%;
 }
 
 main .about-us-second-section {
-    position: relative;
-    height: 600px;
     background-image: url(../img/smart-home.jfif);
     background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 1150px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 main .about-us-third-section {
-    position: relative;
-    height: 600px;
     background-image: url(../img/The\ Golden\ plant.jfif);
-    background-repeat: no-repeat;
-    background-size: 1150px;
     background-position: center 55%;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 main .about-us-bg {
@@ -151,20 +145,13 @@ main .about-us-bg {
 
 /* FOOTER */
 
-/* footer {
-    height: 120px;
-    text-align: center;
-    color: #fff;
-    background-color: rgb(54, 54, 54);
-} */
-
 footer .footer-img {
     position: relative;
     height: 150px;
     background-image: url('../img/leaves.png');
     background-repeat: no-repeat;
-    text-align: center;
     color: whitesmoke;
+    text-align: center;
 }
 
 .footer-bg {
