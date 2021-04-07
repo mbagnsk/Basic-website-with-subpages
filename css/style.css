@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -74,6 +78,7 @@ header .header-text h1 {
 /* MAIN */
 
 main {
+    min-height: 44.3%;
     width: 60%;
     margin: 20px auto;
 }
