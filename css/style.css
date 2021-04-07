@@ -44,20 +44,20 @@ header .header-text h1 {
 
 /* NAVIGATION */
 
-nav {
+.nav {
     height: 50px;
     background-color: rgb(54, 54, 54);
     text-align: center;
     font-size: 0;
 }
 
-nav li {
+.nav li {
     display: inline-block;
     line-height: 50px;
     font-size: 16px;
     }
 
-nav li a {
+.nav li a {
     padding: 0 75px;
     transition: color 0.3s;
     text-decoration: none;
@@ -67,7 +67,7 @@ nav li a {
     letter-spacing: 2px;
 }
 
-nav li a:hover {
+.nav li a:hover {
     color:rgb(176, 221, 159);
 }
 
